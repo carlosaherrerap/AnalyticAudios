@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+
+# Carpetas de entrada (contienen datos sensibles)
+AGUAFRIA/
+PRIMER_FILTRO/
+SEGUNDO_FILTRO/
+TERCER_FILTRO/
+EVIDENCIAS/
+ffmpeg/
+
+
+~$rprocesamiento_20251120_134438.xlsx
+rprocesamiento_20251120_134438.xlsx
+
+
+# Archivos temporales
+temp/
+temp_test/
+*.wav
+*.tmp
+temp
+
+# Resultados de procesamiento
+audios_filtrados/
+errores/
+*.json
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modelos descargados (opcional, pueden ser grandes)
+models/
+*.pt
+*.pth
+*.onnx
+
+
+
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
